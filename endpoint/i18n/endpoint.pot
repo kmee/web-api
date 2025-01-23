@@ -26,13 +26,13 @@ msgid "Active"
 msgstr ""
 
 #. module: endpoint
-#: model_terms:ir.ui.view,arch_db:endpoint.endpoint_endpoint_search_view
+#: model_terms:ir.ui.view,arch_db:endpoint.endpoint_mixin_search_view
 msgid "All"
 msgstr ""
 
 #. module: endpoint
-#: model_terms:ir.ui.view,arch_db:endpoint.endpoint_endpoint_search_view
 #: model_terms:ir.ui.view,arch_db:endpoint.endpoint_mixin_form_view
+#: model_terms:ir.ui.view,arch_db:endpoint.endpoint_mixin_search_view
 msgid "Archived"
 msgstr ""
 
@@ -246,7 +246,7 @@ msgid "Sync registry"
 msgstr ""
 
 #. module: endpoint
-#: model_terms:ir.ui.view,arch_db:endpoint.endpoint_endpoint_search_view
+#: model_terms:ir.ui.view,arch_db:endpoint.endpoint_mixin_search_view
 msgid "To sync"
 msgstr ""
 
