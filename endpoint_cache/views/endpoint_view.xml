@@ -7,7 +7,7 @@
         <field name="model">endpoint.mixin</field>
         <field name="inherit_id" ref="endpoint.endpoint_mixin_form_view" />
         <field name="arch" type="xml">
-          <notebook>
+          <xpath expr="//page[last()]" position="after">
             <page string="Cache">
               <group>
                 <field name="cache_policy" />
@@ -34,7 +34,7 @@ resp = Response(result, content_type="application/json", status=200)
 result = dict(response=resp)
               </pre>
             </page>
-          </notebook>
+          </xpath>
         </field>
     </record>
 
